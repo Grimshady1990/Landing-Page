@@ -1,0 +1,43 @@
+body {
+    margin: 0%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    flex-grow: inherit;
+    background-color: #1F2937;
+    
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-right: 150px;
+
+    
+    
+    
+}
+
+a {
+    text-decoration: none;
+    margin-left: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    
+
+    
+}
+
+h1 {
+    margin: 0 0 0 150px;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    color: #F9FAF8;
+}
