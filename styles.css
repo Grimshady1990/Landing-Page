@@ -36,8 +36,22 @@ h1 {
 
 .sec1-col {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
+    max-width: 350px;
+    flex-wrap: wrap; 
 }
 .sec1-row {
     display: flex;
+    background-color: #1F2937;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 900;
+    color:#F9FAF8;
+}
+
+#sec1-p {
+    font-size: 18px;
+    color: #E5E7EB;
 }
