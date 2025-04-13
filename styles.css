@@ -8,18 +8,13 @@ body {
     align-items: center;
     flex: 1;
     flex-grow: inherit;
-    background-color: #1F2937;
-    
+    background-color: #1F2937;    
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    margin-right: 150px;
-
-    
-    
-    
+    margin-right: 150px;   
 }
 
 a {
@@ -29,10 +24,7 @@ a {
     font-size: 18px;
     color: #F9FAF8;
     display: flex;
-    align-items: center;
-    
-
-    
+    align-items: center;       
 }
 
 h1 {
@@ -40,4 +32,12 @@ h1 {
     font-family: Roboto, sans-serif;
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.sec1-col {
+    display: flex;
+    flex-direction: column; 
+}
+.sec1-row {
+    display: flex;
 }
