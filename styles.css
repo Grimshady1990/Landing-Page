@@ -37,7 +37,7 @@ h1 {
 .sec1-col {
     display: flex;
     flex-direction: column;
-    max-width: 350px;
+    max-width: 400px;
     flex-wrap: wrap; 
     align-items: center; /* Changes the size of the sign up button, but i dont know why */
 }
