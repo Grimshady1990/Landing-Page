@@ -44,6 +44,8 @@ h1 {
 .sec1-row {
     display: flex;
     background-color: #1F2937;
+    align-items: center;
+    padding: 100px;
     
 }
 
