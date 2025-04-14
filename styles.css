@@ -20,7 +20,6 @@ ul {
 a {
     text-decoration: none;
     margin-left: 20px;
-    font-family: Roboto, sans-serif;
     font-size: 18px;
     color: #F9FAF8;
     display: flex;
@@ -29,7 +28,6 @@ a {
 
 h1 {
     margin: 0 0 0 150px;
-    font-family: Roboto, sans-serif;
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -62,4 +60,14 @@ h2 {
     font-size: 18px;
     color: #E5E7EB;
     margin: 0;
+}
+
+#butt1 {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: auto;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 5px 25px;
 }
