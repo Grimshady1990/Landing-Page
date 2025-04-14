@@ -39,13 +39,15 @@ h1 {
     flex-direction: column;
     max-width: 400px;
     flex-wrap: wrap; 
-    align-items: center; /* Changes the size of the sign up button, but i dont know why */
+    align-items: flex-start;
+    padding-right: 40px;
 }
 .sec1-row {
     display: flex;
     background-color: #1F2937;
     align-items: center;
     padding: 100px;
+    justify-content: space-between;
     
 }
 
