@@ -25,7 +25,7 @@ a {
     text-decoration: none;
     margin-left: 20px;
     font-size: 18px;
-    color: #E5E7EB;
+    color: #979797;
     display: flex;
     align-items: center;       
 }
@@ -62,7 +62,7 @@ h2 {
 
 #sec1-p {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #979797;
     margin: 0;
 }
 
@@ -83,14 +83,18 @@ h2 {
     flex-direction: column;
     align-items: center;
     flex: 1;
+    
 }
 
 .text-block {
     display: flex;
-    max-width: 600px;
+    max-width: 800px;
     text-align: center;
     justify-items: center;
     margin: 0;
+    font-size: 18px;
+    color: #656768;
+    
 }
 
 p {
@@ -99,4 +103,10 @@ p {
 
 .img-block {
     display: flex;
+}
+
+#sec2-sub {
+    
+    width: 200px;
+    
 }
