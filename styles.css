@@ -39,10 +39,12 @@ h1 {
     flex-direction: column;
     max-width: 350px;
     flex-wrap: wrap; 
+    align-items: center; /* Changes the size of the sign up button, but i dont know why */
 }
 .sec1-row {
     display: flex;
     background-color: #1F2937;
+    
 }
 
 h2 {
