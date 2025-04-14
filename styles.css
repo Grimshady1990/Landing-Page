@@ -39,7 +39,7 @@ h1 {
 .sec1-col {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
+    max-width: 450px;
     flex-wrap: wrap; 
     align-items: flex-start;
     padding-right: 40px;
@@ -71,8 +71,9 @@ h2 {
     background-color: #3882F6;
     padding: auto;
     border: 0;
-    border-radius: 5px;
+    border-radius: 7px;
     font-size: 18px;
-    padding: 5px 25px;
+    padding: 7px 30px;
     margin-top: 10px;
+    font-weight: 600;
 }
