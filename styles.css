@@ -88,9 +88,10 @@ h2 {
 
 .text-block {
     display: flex;
-    max-width: 800px;
+    max-width: 1000px;
     text-align: center;
     justify-items: center;
+    gap: 40px;
     margin: 0;
     font-size: 18px;
     color: #656768;
@@ -103,6 +104,7 @@ p {
 
 .img-block {
     display: flex;
+    gap: 40px;
 }
 
 #sec2-sub {
