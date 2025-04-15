@@ -83,6 +83,7 @@ h2 {
     flex-direction: column;
     align-items: center;
     flex: 1;
+    margin-bottom: 100px;
     
 }
 
@@ -105,10 +106,27 @@ p {
 .img-block {
     display: flex;
     gap: 40px;
+    
 }
 
 #sec2-sub {
     
     width: 200px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: white;
     
+}
+
+#sec2-img {
+    border: #3882F6;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 20px;
+}
+
+h3 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
