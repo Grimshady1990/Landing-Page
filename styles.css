@@ -140,7 +140,16 @@ h3 {
 
 #quote {
     font-size: 36px;
+    color: #454646;
     display: flex;
+    font-style: italic;
+    font-weight: 200;
     
 }
 
+#author {
+    font-size: 22px;
+    display: flex;
+    justify-content: flex-end;
+    font-weight: 700;
+}
