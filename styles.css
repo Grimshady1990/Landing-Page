@@ -153,3 +153,31 @@ h3 {
     justify-content: flex-end;
     font-weight: 700;
 }
+
+.sec4-text {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sec4 {
+    background-color: #3882F6 ;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-around;
+    padding: 50px 0;
+    margin: 100px 200px;
+    border-radius: 10px;
+}
+
+#butt2 {
+    color: #F9FAF8;
+    background-color: #3882F6 ;
+    border-style: solid;
+    border-color: #F9FAF8;
+    border-radius: 5px;
+
+
+}
+
