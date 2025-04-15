@@ -130,3 +130,8 @@ h3 {
     color: #1F2937;
     font-weight: 900;
 }
+
+.sec3 {
+    display: flex;
+    flex-direction: column;
+}
