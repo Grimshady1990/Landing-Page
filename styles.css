@@ -134,4 +134,13 @@ h3 {
 .sec3 {
     display: flex;
     flex-direction: column;
+    background-color: #cccccc;
+    padding: 120px 340px;
 }
+
+#quote {
+    font-size: 36px;
+    display: flex;
+    
+}
+
