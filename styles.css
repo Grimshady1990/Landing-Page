@@ -176,7 +176,11 @@ h3 {
     background-color: #3882F6 ;
     border-style: solid;
     border-color: #F9FAF8;
-    border-radius: 5px;
+    border-radius: 10px;
+    border-width: 2px;
+    font-size: 16px;
+    padding: 10px 35px;
+    font-weight: 900;
 
 
 }
