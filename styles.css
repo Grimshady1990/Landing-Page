@@ -3,6 +3,9 @@ html {
 }
 
 body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     margin: 0%;
 }
 
@@ -10,7 +13,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex: 1;
+    
     flex-grow: inherit;
     background-color: #1F2937;    
 }
@@ -48,7 +51,7 @@ h1 {
     display: flex;
     background-color: #1F2937;
     align-items: center;
-    padding: 100px;
+    padding: 100px 150px;
     justify-content: space-between;
     
 }
@@ -193,3 +196,17 @@ h3 {
     color: #bcbcbc;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    flex: 1;
+
+    
+}
+
+#footer-text {
+    color: #F9FAF8;
+    font-size: 18px;
+}
