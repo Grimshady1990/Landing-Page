@@ -7,21 +7,21 @@ body {
     display: flex;
     flex-direction: column;
     margin: 0%;
+    flex: content;
+    
 }
 
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    flex-grow: inherit;
-    background-color: #1F2937;    
+    background-color: #1F2937;
 }
 
 ul {
     list-style-type: none;
     display: flex;
-    margin-right: 150px;   
+    margin-right: 150px;
 }
 
 a {
@@ -29,8 +29,6 @@ a {
     margin-left: 20px;
     font-size: 18px;
     color: #979797;
-    display: flex;
-    align-items: center;       
 }
 
 h1 {
@@ -43,23 +41,25 @@ h1 {
     display: flex;
     flex-direction: column;
     max-width: 450px;
-    flex-wrap: wrap; 
     align-items: flex-start;
     padding-right: 40px;
+    flex: auto;
 }
+
 .sec1-row {
     display: flex;
     background-color: #1F2937;
     align-items: center;
     padding: 100px 150px;
     justify-content: space-between;
-    
+    flex: auto;
+
 }
 
 h2 {
     font-size: 48px;
     font-weight: 900;
-    color:#F9FAF8;
+    color: #F9FAF8;
     margin: 0px;
 }
 
@@ -72,7 +72,6 @@ h2 {
 #butt1 {
     color: #F9FAF8;
     background-color: #3882F6;
-    padding: auto;
     border: 0;
     border-radius: 7px;
     font-size: 18px;
@@ -85,21 +84,20 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    flex: 1;
     margin-bottom: 100px;
-    
+    flex: auto;
+
 }
 
 .text-block {
     display: flex;
-    max-width: 1000px;
     text-align: center;
     justify-items: center;
     gap: 40px;
     margin: 0;
     font-size: 18px;
     color: #656768;
-    
+
 }
 
 p {
@@ -109,16 +107,16 @@ p {
 .img-block {
     display: flex;
     gap: 40px;
-    
+
 }
 
 #sec2-sub {
-    
+
     width: 200px;
     border-style: solid;
     border-width: 4px;
     border-color: white;
-    
+
 }
 
 #sec2-img {
@@ -139,6 +137,7 @@ h3 {
     flex-direction: column;
     background-color: #cccccc;
     padding: 120px 340px;
+    flex: auto;
 }
 
 #quote {
@@ -147,7 +146,7 @@ h3 {
     display: flex;
     font-style: italic;
     font-weight: 200;
-    
+
 }
 
 #author {
@@ -164,19 +163,20 @@ h3 {
 }
 
 .sec4 {
-    background-color: #3882F6 ;
+    background-color: #3882F6;
     display: flex;
     align-items: center;
-    flex: 1;
     justify-content: space-around;
     padding: 50px 0;
     margin: 100px 200px;
     border-radius: 10px;
+    flex: auto;
+    
 }
 
 #butt2 {
     color: #F9FAF8;
-    background-color: #3882F6 ;
+    background-color: #3882F6;
     border-style: solid;
     border-color: #F9FAF8;
     border-radius: 10px;
@@ -187,7 +187,7 @@ h3 {
 }
 
 #sec4-text1 {
-    color:#F9FAF8;
+    color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
 }
@@ -200,9 +200,10 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex: auto;
     background-color: #1F2937;
-    flex: 1;
-
+    max-height: 100px;
+    padding: 20px 0;
     
 }
 
