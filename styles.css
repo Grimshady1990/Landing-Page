@@ -1,8 +1,6 @@
-html {
-    font-family: "Roboto", sans-serif;
-}
 
 body {
+    font-family: "Roboto", sans-serif;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -10,6 +8,10 @@ body {
     flex: content;
     
 }
+
+/* ===============================
+   Header Styles
+   =============================== */
 
 .header {
     display: flex;
@@ -36,6 +38,10 @@ h1 {
     font-size: 24px;
     color: #F9FAF8;
 }
+
+/* ==============================
+   Section 1 Styles
+   ============================== */
 
 .sec1-col {
     display: flex;
@@ -79,6 +85,10 @@ h2 {
     margin-top: 10px;
     font-weight: 600;
 }
+
+/* ==========================
+   Section 2 Styles
+   ========================== */
 
 .sec2 {
     display: flex;
@@ -132,6 +142,10 @@ h3 {
     font-weight: 900;
 }
 
+/* ================================
+   Section 3 Styles
+   ================================ */
+
 .sec3 {
     display: flex;
     flex-direction: column;
@@ -155,6 +169,10 @@ h3 {
     justify-content: flex-end;
     font-weight: 700;
 }
+
+/* ================================
+   Section 4 Styles
+   ================================ */
 
 .sec4-text {
     display: flex;
@@ -195,6 +213,10 @@ h3 {
 #sec4-text2 {
     color: #bcbcbc;
 }
+
+/* ==============================
+   Footer Styles
+   ============================== */
 
 .footer {
     display: flex;
