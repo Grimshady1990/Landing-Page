@@ -6,9 +6,15 @@
     color: rgb(211, 211, 211);
     background-color: #1F2937;
     font-family: "Roboto", sans-serif;
+    margin: 0 200px
 }
 
 a {
     color: white ;
     text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
 }
