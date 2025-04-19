@@ -1,4 +1,8 @@
+/* ===================================
+   Body Styles
+   =================================== */
 
+/* Global settings for the body of index.html */
 #body-index {
     font-family: "Roboto", sans-serif;
     min-height: 100vh;
@@ -13,6 +17,7 @@
    Header Styles
    =============================== */
 
+/* Styles the header container */
 .header {
     display: flex;
     justify-content: space-between;
@@ -20,12 +25,14 @@
     background-color: #1F2937;
 }
 
+/* Styles the header links as a group */
 ul {
     list-style-type: none;
     display: flex;
     margin-right: 150px;
 }
 
+/* Style header links individually */
 a {
     text-decoration: none;
     margin-left: 20px;
@@ -33,6 +40,7 @@ a {
     color: #979797;
 }
 
+/* Style header title "Garden Nose™ */
 #h1-index {
     margin: 0 0 0 150px;
     font-size: 24px;
@@ -43,6 +51,7 @@ a {
    Section 1 Styles
    ============================== */
 
+/* Align section 1 texts and button in a column */
 .sec1-col {
     display: flex;
     flex-direction: column;
@@ -52,6 +61,7 @@ a {
     flex: auto;
 }
 
+/* Align the section 1 image in a row along side sec1-col */
 .sec1-row {
     display: flex;
     background-color: #1F2937;
@@ -62,6 +72,7 @@ a {
 
 }
 
+/* Styles the header of section 1 */
 #index-h2 {
     font-size: 48px;
     font-weight: 900;
@@ -69,12 +80,14 @@ a {
     margin: 0px;
 }
 
+/* Style section one subtext */
 #sec1-p {
     font-size: 18px;
     color: #979797;
     margin: 0;
 }
 
+/* Style the button of section 1 */
 #butt1 {
     color: #F9FAF8;
     background-color: #3882F6;
@@ -90,6 +103,7 @@ a {
    Section 2 Styles
    ========================== */
 
+/* Style everything contained in section 2 */
 .sec2 {
     display: flex;
     flex-direction: column;
@@ -99,6 +113,7 @@ a {
 
 }
 
+/* Style all subtext in section 2 */
 .text-block {
     display: flex;
     text-align: center;
@@ -110,16 +125,19 @@ a {
 
 }
 
+/* Removes default margins */
 p {
     margin: 0;
 }
 
+/* Styles all images together in section2 */
 .img-block {
     display: flex;
     gap: 40px;
 
 }
 
+/* Style subtext in section 2 individually */
 #sec2-sub {
 
     width: 200px;
@@ -129,6 +147,7 @@ p {
 
 }
 
+/* Style section 2 images individually */
 #sec2-img {
     border: #3882F6;
     border-width: 4px;
@@ -136,6 +155,7 @@ p {
     border-radius: 20px;
 }
 
+/* Style header of section 2 */
 h3 {
     font-size: 36px;
     color: #1F2937;
@@ -146,6 +166,7 @@ h3 {
    Section 3 Styles
    ================================ */
 
+/* Style everything contained in section 3 */
 .sec3 {
     display: flex;
     flex-direction: column;
@@ -154,6 +175,7 @@ h3 {
     flex: auto;
 }
 
+/* Style the customer testimony in section 3 */
 #quote {
     font-size: 36px;
     color: #454646;
@@ -163,6 +185,7 @@ h3 {
 
 }
 
+/* Style the author of the testimonies signature */
 #author {
     font-size: 22px;
     display: flex;
@@ -174,12 +197,14 @@ h3 {
    Section 4 Styles
    ================================ */
 
+/* Style both text containers together in section 4 */
 .sec4-text {
     display: flex;
     flex-direction: column;
 
 }
 
+/* Style the container that holds everything in section 4 */
 .sec4 {
     background-color: #3882F6;
     display: flex;
@@ -192,6 +217,7 @@ h3 {
     
 }
 
+/* Style the button in section 4 */
 #butt2 {
     color: #F9FAF8;
     background-color: #3882F6;
@@ -204,12 +230,14 @@ h3 {
     font-weight: 900;
 }
 
+/* Style first line of text in section 4 */
 #sec4-text1 {
     color: #F9FAF8;
     font-size: 24px;
     font-weight: 900;
 }
 
+/* Style the second line of text in section 4 */
 #sec4-text2 {
     color: #F9FAF8;
 }
@@ -218,6 +246,7 @@ h3 {
    Footer Styles
    ============================== */
 
+/* Style the footer container */
 .footer {
     display: flex;
     justify-content: center;
@@ -229,6 +258,7 @@ h3 {
     
 }
 
+/* Style the text inside the footer container */
 #footer-text {
     color: #F9FAF8;
     font-size: 18px;
