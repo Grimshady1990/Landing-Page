@@ -8,6 +8,7 @@
     font-family: "Roboto", sans-serif;
 }
 
-#a-index{
+a {
     color: white ;
+    text-decoration: none;
 }
