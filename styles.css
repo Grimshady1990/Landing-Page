@@ -1,5 +1,5 @@
 
-body {
+#body-index {
     font-family: "Roboto", sans-serif;
     min-height: 100vh;
     display: flex;
@@ -33,7 +33,7 @@ a {
     color: #979797;
 }
 
-h1 {
+#h1-index {
     margin: 0 0 0 150px;
     font-size: 24px;
     color: #F9FAF8;
@@ -232,4 +232,14 @@ h3 {
 #footer-text {
     color: #F9FAF8;
     font-size: 18px;
+}
+
+/* =============================
+   Info.html Styles
+   ============================= */
+
+#info-body{
+    color: rgb(211, 211, 211);
+    background-color: #1F2937;
+    font-family: "Roboto", sans-serif;
 }
