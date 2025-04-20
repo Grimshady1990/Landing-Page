@@ -1,15 +1,19 @@
 /* ===================================
+    IMPORTANT
+ * This stylesheet is only to be used for
+ * styling index.html the stylesheet for
+ * info.html is styles2.css 
+   =================================== */
+
+
+/* ===================================
    Body Styles
    =================================== */
 
 /* Global settings for the body of index.html */
 #body-index {
     font-family: "Roboto", sans-serif;  
-    display: flex;
-    flex-direction: column;
-    margin: 0%;
-    
-    
+    margin: 0%; /* Remove default margin */  
 }
 
 /* ===============================
@@ -19,23 +23,23 @@
 /* Styles the header container */
 .header {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: space-between; /* Push items away from each other */
+    align-items: center; /* Center items vertically */
     background-color: #1F2937;
 }
 
 /* Styles the header links as a group */
 ul {
-    list-style-type: none;
-    display: flex;
+    list-style-type: none; /* Removes bullet points */
+    display: flex; /* Organizes items horizontally */ 
     margin-right: 150px;
 }
 
 /* Style header links individually */
 a {
-    text-decoration: none;
+    text-decoration: none; /* Removes default decor from links */
     margin-left: 20px;
-    font-size: 18px;
+    font-size: 18px; 
     color: #979797;
 }
 
@@ -53,15 +57,22 @@ a {
 /* Align section 1 texts and button in a column */
 .sec1-col {
     display: flex;
+
+    /* flex-direction makes sure the 3 items
+     * are aligned in a column */
     flex-direction: column;
     max-width: 450px;
-    align-items: flex-start;
+    align-items: flex-start; /* Shrinks button to desired size */
     padding-right: 40px;
     flex: auto;
 }
 
 /* Align the section 1 image in a row along side sec1-col */
 .sec1-row {
+    /* This contains all elements of section 1
+     * but treats sec1-col as one item making
+     * it possible for us to horizontally position
+     * the image */
     display: flex;
     background-color: #1F2937;
     align-items: center;
@@ -117,7 +128,8 @@ a {
     display: flex;
     text-align: center;
     justify-items: center;
-    gap: 40px;
+    /* gap is same as img-block to keep alignment */
+    gap: 40px; 
     margin: 0;
     font-size: 18px;
     color: #656768;
@@ -133,6 +145,7 @@ p {
 /* Styles all images together in section2 */
 .img-block {
     display: flex;
+    /* gap is same as text-block to keep alignment */
     gap: 40px;
 
 }
@@ -140,7 +153,14 @@ p {
 /* Style subtext in section 2 individually */
 #sec2-sub {
 
+    /* Width is same as the image 
+     * to keep alignment */
     width: 200px;
+    /* this border is used to keep
+     * alignment with the image
+     * the border matches the 
+     * background so to not be 
+     * visible */
     border-style: solid;
     border-width: 4px;
     border-color: white;
@@ -182,15 +202,18 @@ h3 {
     font-style: italic;
     display: flex;
     font-weight: 200;
+    /* min-width is used to stop 
+     * flex growing section 3 
+     * when page is resized */
     min-width: 700px;
-    
-
 }
 
 /* Style the author of the testimonies signature */
 #author {
     font-size: 22px;
     display: flex;
+    /* flex-end positions author where
+     * we want it */
     justify-content: flex-end;
     font-weight: 700;
 }
@@ -202,6 +225,9 @@ h3 {
 /* Style both text containers together in section 4 */
 .sec4-text {
     display: flex;
+    /* I use a similar technique here
+     * as I did with section 1 to 
+     * align items */
     flex-direction: column;
 
 }
