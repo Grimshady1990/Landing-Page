@@ -4,12 +4,11 @@
 
 /* Global settings for the body of index.html */
 #body-index {
-    font-family: "Roboto", sans-serif;
-    min-height: 100vh;
+    font-family: "Roboto", sans-serif;  
     display: flex;
     flex-direction: column;
     margin: 0%;
-    flex: content;
+    
     
 }
 
@@ -128,6 +127,7 @@ a {
 /* Removes default margins */
 p {
     margin: 0;
+    display: flex;
 }
 
 /* Styles all images together in section2 */
@@ -172,16 +172,18 @@ h3 {
     flex-direction: column;
     background-color: #cccccc;
     padding: 120px 340px;
-    flex: auto;
+    
 }
 
 /* Style the customer testimony in section 3 */
 #quote {
     font-size: 36px;
     color: #454646;
-    display: flex;
     font-style: italic;
+    display: flex;
     font-weight: 200;
+    min-width: 700px;
+    
 
 }
 
