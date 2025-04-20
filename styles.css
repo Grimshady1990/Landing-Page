@@ -120,7 +120,6 @@ a {
     align-items: center;
     margin-bottom: 100px;
     flex: auto;
-
 }
 
 /* Style all subtext in section 2 */
@@ -133,7 +132,6 @@ a {
     margin: 0;
     font-size: 18px;
     color: #656768;
-
 }
 
 /* Removes default margins */
