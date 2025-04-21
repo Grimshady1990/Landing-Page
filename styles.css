@@ -203,14 +203,14 @@ h3 {
     justify-content: center;
     align-items: center;
     background-color: #cccccc;
-    padding: 120px 0;
+    padding: 40px 100px;
     flex: auto;
     
 }
 
 /* Style the customer testimony in section 3 */
 #quote {
-    font-size: 28px;
+    font-size: 42px;
     color: #454646;
     font-style: italic;
     display: block;
@@ -218,7 +218,7 @@ h3 {
     /* min-width is used to stop 
      * flex growing section 3 
      * when page is resized */
-    max-width: 700px;
+    max-width: 900px;
 }
 
 /* Style the author of the testimonies signature */
@@ -227,6 +227,7 @@ h3 {
     font-weight: 700;
     margin-left: 400px; /* This positions the item where we need it */
     display: flex;
+    align-self: flex-end;
 }
 
 /* ================================
@@ -248,11 +249,12 @@ h3 {
     background-color: #3882F6;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     
-    padding: 50px 50px;
-    margin: 50px 100px;
+    padding: 0 200px;
+    margin: 100px 150px;
     border-radius: 10px;
+    flex: auto;
     
     
     
@@ -275,7 +277,7 @@ h3 {
 /* Style first line of text in section 4 */
 #sec4-text1 {
     color: #F9FAF8;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 900;
 }
 
