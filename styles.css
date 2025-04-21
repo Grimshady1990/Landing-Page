@@ -12,6 +12,7 @@
 
 /* Global settings for the body of index.html */
 #body-index {
+    max-height: 100vh;
     font-family: "Roboto", sans-serif;  
     margin: 0%; /* Remove default margin */  
 }
@@ -197,7 +198,7 @@ h3 {
 
 /* Style the customer testimony in section 3 */
 #quote {
-    font-size: 36px;
+    font-size: 28px;
     color: #454646;
     font-style: italic;
     display: block;
