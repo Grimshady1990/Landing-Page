@@ -205,7 +205,7 @@ h3 {
     /* min-width is used to stop 
      * flex growing section 3 
      * when page is resized */
-    max-width: 600px
+    max-width: 1000px
 }
 
 /* Style the author of the testimonies signature */
