@@ -137,7 +137,7 @@ a {
 /* Removes default margins */
 p {
     margin: 0;
-    display: flex;
+    
 }
 
 /* Styles all images together in section2 */
@@ -205,18 +205,14 @@ h3 {
     /* min-width is used to stop 
      * flex growing section 3 
      * when page is resized */
-    max-width: 1250px
+    max-width: 1250px;
 }
 
 /* Style the author of the testimonies signature */
 #author {
     font-size: 22px;
-    display: flex;
-    /* flex-end positions author where
-     * we want it */
-    
     font-weight: 700;
-    margin-left: 600px;
+    margin-left: 600px; /* This positions the item where we need it */
 }
 
 /* ================================
