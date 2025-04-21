@@ -12,9 +12,14 @@
 
 /* Global settings for the body of index.html */
 #body-index {
-    max-height: 100vh;
     font-family: "Roboto", sans-serif;  
-    margin: 0%; /* Remove default margin */  
+    margin: 0%; /* Remove default margin */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+
+    
 }
 
 /* ===============================
@@ -277,7 +282,6 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex: auto;
     background-color: #1F2937;
     max-height: 100px;
     padding: 20px 0;
