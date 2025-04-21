@@ -188,6 +188,8 @@ h3 {
 .sec3 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #cccccc;
     padding: 120px 340px;
     
@@ -212,8 +214,9 @@ h3 {
     display: flex;
     /* flex-end positions author where
      * we want it */
-    justify-content: flex-end;
+    
     font-weight: 700;
+    margin-left: 600px;
 }
 
 /* ================================
