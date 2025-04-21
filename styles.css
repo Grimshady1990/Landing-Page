@@ -250,7 +250,7 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 10px;
+    padding: 0 100px;
     margin: 100px 100px;
     border-radius: 10px;
     flex: auto;
