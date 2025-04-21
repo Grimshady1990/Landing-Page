@@ -200,12 +200,12 @@ h3 {
     font-size: 36px;
     color: #454646;
     font-style: italic;
-    display: flex;
+    display: block;
     font-weight: 200;
     /* min-width is used to stop 
      * flex growing section 3 
      * when page is resized */
-    max-width: 1000px
+    max-width: 1250px
 }
 
 /* Style the author of the testimonies signature */
