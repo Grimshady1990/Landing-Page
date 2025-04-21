@@ -219,6 +219,7 @@ h3 {
     font-size: 22px;
     font-weight: 700;
     margin-left: 400px; /* This positions the item where we need it */
+    display: flex;
 }
 
 /* ================================
