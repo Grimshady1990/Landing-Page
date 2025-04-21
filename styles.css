@@ -17,6 +17,10 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    justify-content: stretch;
+    
+    
+    
 
 
     
@@ -32,6 +36,8 @@
     justify-content: space-between; /* Push items away from each other */
     align-items: center; /* Center items vertically */
     background-color: #1F2937;
+    
+    
 }
 
 /* Styles the header links as a group */
@@ -124,8 +130,8 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
     flex: auto;
+    
 }
 
 /* Style all subtext in section 2 */
@@ -198,6 +204,7 @@ h3 {
     align-items: center;
     background-color: #cccccc;
     padding: 120px 0;
+    flex: auto;
     
 }
 
@@ -242,10 +249,11 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-   
+    
     padding: 50px 50px;
     margin: 50px 100px;
     border-radius: 10px;
+    
     
     
     
