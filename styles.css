@@ -203,7 +203,7 @@ h3 {
     /* min-width is used to stop 
      * flex growing section 3 
      * when page is resized */
-    min-width: 700px;
+    /*min-width: 700px; */
 }
 
 /* Style the author of the testimonies signature */
